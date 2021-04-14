@@ -41,7 +41,7 @@ get all streets in a ward
 ```
 
 ## Author 
-[Chinaa Swai](https://github.com/jhon-swai) Chrome extension developer [email](jhonswai@gmail.com)
+[Chinaa Swai](https://github.com/jhon-swai) Chrome extension developer [email](mailto:jhonswai@gmail.com)
 
 ## Version
 1.0.1
