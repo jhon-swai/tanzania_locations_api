@@ -33,10 +33,9 @@ def teardown_request(exception):
 
 @app.route('/')
 def show_entries():
-    cur = g.db.execute('select region,street from arusha')
-    entries = [dict(region=row[0], street=row[1]) for row in cur.fetchall()]
-    print(entries[0])
-    return render_template('show_entries.html', entries=entries)
+    regions = ['arusha', 'daressalaam', 'dodoma', 'geita', 'iringa', 'kagera', 'katavi', 'kigoma', 'kilimanjaro', 'lindi', 'manyara', 'mara', 'mbeya', 'morogoro', 'mtwara', 'mwanza', 'njombe', 'pwani', 'rukwa', 'ruvuma', 'shinyanga', 'simiyu', 'singida', 'singida', 'songwe', 'tabora']
+    
+    return render_template('show_entries.html', entries=regions)
 
 
 # Get all districts in a region
@@ -202,6 +201,12 @@ def show_streets(region_name, district_name, ward_name):
         num+=1
 
     return jsonify(data_dict)
+
+
+# Error handling 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 if __name__ == '__main__':
     app.run()
