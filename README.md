@@ -40,6 +40,8 @@ get all streets in a ward
 /streets/daressalaam/ilala/pugu
 ```
 
+## URL 
+The url used is ```https://tanzania-locations.herokuapp.com/```
 ## Author 
 [Chinaa Swai](https://github.com/jhon-swai) 
 
