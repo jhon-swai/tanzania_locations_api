@@ -41,7 +41,8 @@ get all streets in a ward
 ```
 
 ## URL 
-The url used is ```https://tanzania-locations.herokuapp.com/```
+The url used is ```https://tanzania-locations.herokuapp.com/``` 
+[click here to visit site](https://tanzania-locations.herokuapp.com/)
 ## Author 
 [Chinaa Swai](https://github.com/jhon-swai) 
 
