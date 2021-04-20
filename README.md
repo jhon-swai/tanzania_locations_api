@@ -45,6 +45,9 @@ The url used is ```https://tanzania-locations.herokuapp.com/```
 ## Author 
 [Chinaa Swai](https://github.com/jhon-swai) 
 
+## Portfolio 
+[Personal site](https://chinaa-swai.web.app/)
+
 ## Version
 1.0.1
 
